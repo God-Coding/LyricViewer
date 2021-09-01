@@ -171,7 +171,7 @@ class Game{
         this.images = [];
         this.audioLoaded = false;
         document.getElementById("button").style.display = "none";
-        this.audio = new Audio("https://raw.githubusercontent.com/God-Coding/Lyric-Visualiser/main/family.mp3");
+        this.audio = new Audio("https://raw.githubusercontent.com/God-Coding/LyricViewer/main/family.mp3");
         this.audio.addEventListener("canplaythrough", ()=>{
             this.audioLoaded = true;
             document.getElementById("button").style.display = "block";
