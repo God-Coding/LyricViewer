@@ -91,8 +91,7 @@ class Game{
                     var url = "https://api.pexels.com/v1/search?query="+ query +"&per_page=" + rate;
                     var xhr = new XMLHttpRequest();
                     xhr.open("GET", url);
-                    xhr.setRequestHeader("Authorization", "563492ad6f9170000100000192ff882aa041492987b5ba6b9318c018");
-                    //xhr.setRequestHeader("Authorization", "563492ad6f917000010000015776cd7b16e6479faf0d555be5c7a7f7");
+                    xhr.setRequestHeader("Authorization", "563492ad6f91700001000001d26e1fb95f274c898ef9e44295e0c1ab");
                     xhr.onreadystatechange = function () {
                     if (xhr.readyState === 4) {
                         var obj = JSON.parse(xhr.responseText);
@@ -120,8 +119,7 @@ class Game{
                 var url = "https://api.pexels.com/v1/search?query="+ query +"&per_page=" + rate;
                 var xhr = new XMLHttpRequest();
                 xhr.open("GET", url);
-                xhr.setRequestHeader("Authorization", "563492ad6f9170000100000192ff882aa041492987b5ba6b9318c018");
-                //xhr.setRequestHeader("Authorization", "563492ad6f917000010000015776cd7b16e6479faf0d555be5c7a7f7");
+                xhr.setRequestHeader("Authorization", "563492ad6f91700001000001d26e1fb95f274c898ef9e44295e0c1ab");
                 xhr.onreadystatechange = function () {
                 if (xhr.readyState === 4) {
                     var obj = JSON.parse(xhr.responseText);
